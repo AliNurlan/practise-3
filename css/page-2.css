@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "1";
+    src: url('../fonts/ambidexter.ttf');
+}
+@font-face{
+    font-family: "2";
+    src: url('../fonts/ostrovskybold.ttf');
+}
+@font-face {
+    font-family: '3';
+    src: url('../fonts/frenchpress.ttf');
+}
+
+
+
+
+nav {
+    display: block;
+    position: absolute;
+    width: 890px;
+    top: 5px;
+    left: 1010px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: "2";
+    transition: .5s linear;
+}
+
+.three ul {
+    padding: 0;
+    background: #74C385;
+}
+
+.three li {
+    display: inline-block;
+}
+
+.three a {
+    padding: 1em;
+    display: block;
+    color: black;
+    border-right: 1px solid #BAD78B;
+    background: rgba(186, 215, 139, .3);
+}
+.three a:hover {
+    background: #BAD78B
+}
+
+
+
+.box1 {
+    height: 100px;
+    width: 1903px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: #74C385;
+}
+.box2{
+    height: 700px;
+    width: 1903px;
+    top: 100px;
+    left: 0px;
+    position: absolute;
+    background: #C24C3F;
+}
+.box10 {
+    height: 570px;
+    width: 1903px;
+    top: 800px;
+    left: 0px;
+    position: absolute;
+    background: #74C385;
+}
+
+
+
+.i1 {
+    height: 350px;
+    width: 350px;
+    top: 225px;
+    left: 825px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+
+.p1 {
+    font-family: "1";
+    font-size: 75px;
+    top: -80px;
+    left: 45px;
+    position: absolute;
+}
+.p2 {
+    font-family: "2";
+    font-size: 72px;
+    top: -40px;
+    left: 800px;
+    position: absolute;
+}
+.p3 {
+    font-family: "3";
+    font-size: 52px;
+    top: 60px;
+    left: 725px;
+    position: absolute;
+}
+.p4 {
+    font-family: "3";
+    font-size: 50px;
+    top: 150px;
+    left: 150px;
+    position: absolute;
+}
+.p5 {
+    font-family: "3";
+    font-size: 85px;
+    top: -90px;
+    left: 100px;
+    position: absolute;
+}
+.p6 {
+    font-family: "3";
+    font-size: 85px;
+    top: 105px;
+    left: 1350px;
+    position: absolute;
+}
+.p7 {
+    font-family: "3";
+    font-size: 45px;
+    top: 210px;
+    left: 1355px;
+    position: absolute;
+}
+.p14 {
+    font-family: "3";
+    font-size: 30px;
+    top: 215px;
+    left: 410px;
+    position: absolute;
+}
+
+.p15 {
+    font-family: "2";
+    font-size: 35px;
+    top: -160px;
+    left: 0px;
+    position: absolute;
+}
+
+.p16 {
+    font-family: "3";
+    font-size: 32px;
+    top: -105px;
+    left: 0px;
+    position: absolute;
+}
+
+.p17 {
+    font-family: "3";
+    font-size: 25px;
+    top: 15px;
+    left: 815px;
+    position: absolute;
+}
+
+.p18 {
+    font-family: "2";
+    font-size: 20px;
+    top: 30px;
+    left: 0px;
+    position: absolute;
+}
+
+.p19 {
+    font-family: "2";
+    font-size: 20px;
+    top: 150px;
+    left: 0px;
+    position: absolute;
+}
+
+.p20 {
+    font-family: "2";
+    font-size: 20px;
+    top: 300px;
+    left: 0px;
+    position: absolute;
+}
+
+
+
+.b11{
+    height: 25px;
+    width: 30px;
+    top: 480px;
+    left: 405px;
+    position: absolute;
+    transition: .3s;
+}
+
+.b11:hover {
+    transform: scale(1.15);
+}
+
+.b12 {
+    height: 25px;
+    width: 30px;
+    top: 480px;
+    left: 455px;
+    position: absolute;
+    transition: .3s;
+}
+
+    .b12:hover {
+        transform: scale(1.15);
+    }
+
+.b13 {
+    height: 25px;
+    width: 30px;
+    top: 480px;
+    left: 505px;
+    position: absolute;
+    transition: .3s;
+}
+
+    .b13:hover {
+        transform: scale(1.15);
+    }
+
+a.b14 {
+    font-family: "Arial";
+    font-size: 23px;
+    top: 305px;
+    left: 1220px;
+    position: absolute;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    padding: 0.6em 1.4em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 0px;
+    transition: 0.4s;
+    background: black;
+    border: black;
+}
+
+    a.b14:hover {
+        filter: brightness(75%);
+    }
+
+    a.b14:active {
+        color: black;
+    }
+
+.b15 {
+    height: 25px;
+    width: 30px;
+    top: 610px;
+    left: 1350px;
+    position: absolute;
+    transition: .3s;
+}
+
+    .b15:hover {
+        transform: scale(1.15);
+    }
+
+.b16 {
+    height: 25px;
+    width: 30px;
+    top: 610px;
+    left: 1400px;
+    position: absolute;
+    transition: .3s;
+}
+
+    .b16:hover {
+        transform: scale(1.15);
+    }
+
+.b17 {
+    height: 25px;
+    width: 30px;
+    top: 610px;
+    left: 1450px;
+    position: absolute;
+    transition: .3s;
+}
+
+    .b17:hover {
+        transform: scale(1.15);
+    }
+
+
+input[type=text] {
+    width: 14%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    transition: 0.5s;
+    outline: none;
+}
+
+    input[type=text]:focus {
+        border: 3px solid #555;
+    }
+
+.f1 {
+    position: absolute;
+    top: 70px;
+    left: 1220px;
+    font-size: 18px;
+}
+
+.f2 {
+    position: absolute;
+    top: 120px;
+    left: 1220px;
+    font-size: 18px;
+}
+
+.f3 {
+    position: absolute;
+    top: 170px;
+    left: 1220px;
+    height: 20%;
+    font-size: 18px;
+}
